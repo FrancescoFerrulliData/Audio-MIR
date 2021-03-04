@@ -1,10 +1,9 @@
 import sys
 import math
 import numpy as np
-import os
+
 sys.path.append('../../software/models/')
 from software.models.utilFunctions import wavread, wavwrite
-from assignments.A1.A1.A1Part3 import hopSamples
 
 """
 A1-Part-4: Downsampling audio: Changing the sampling rate

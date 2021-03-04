@@ -240,7 +240,7 @@ sourceFiles = ['A1Part1.py', 'A1Part2.py', 'A1Part3.py']
 def output(partIdx):
     """Uses the student code to compute the output for test cases."""
     outputString = ''
-    filename = open('testInputA1.pkl','rb')
+    filename = open('testInputA1.pkl', 'rb')
     try: ## load the dict
         dictInp = pickle.load(filename,encoding='latin1')  ## python3
     except TypeError:
