@@ -1,8 +1,10 @@
 import sys
+import math
+import numpy as np
 import os
 sys.path.append('../../software/models/')
-from utilFunctions import wavread, wavwrite
-from A1Part3 import hopSamples
+from software.models.utilFunctions import wavread, wavwrite
+from assignments.A1.A1.A1Part3 import hopSamples
 
 """
 A1-Part-4: Downsampling audio: Changing the sampling rate
@@ -25,4 +27,9 @@ def downsampleAudio(inputFile, M):
         inputFile: file name of the wav file (including path)
         	M: downsampling factor (positive integer)
     """
-    ## Your code here
+    fs, x = wavread(inputFile)
+    x_down = x[np.arange(len(x)) % M == 0]
+    #x_down = hopSamples(x,M)
+    fs_down = int(math.floor(fs / M))
+    wavwrite(x_down, fs_down, inputFile)
+

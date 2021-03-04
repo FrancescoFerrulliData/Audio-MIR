@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append('../../software/models/')
-from utilFunctions import wavread
+from software.models.utilFunctions import wavread
 
 """
 A1-Part-1: Reading an audio file
@@ -30,5 +30,5 @@ def readAudio(inputFile):
     Output:
         The function should return a numpy array that contains 10 samples of the audio.
     """
-    ## Your code here
-
+    fs, x = wavread(inputFile)
+    return x[50000:50010]

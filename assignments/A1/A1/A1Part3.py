@@ -1,3 +1,4 @@
+import numpy as np
 """
 A1-Part-3: Python array indexing
 
@@ -18,7 +19,9 @@ def hopSamples(x,M):
     Output:
         A numpy array containing every Mth element in x, starting from the first element in x.
     """
-    ## Your code here
+    down = x[np.arange(len(x)) % M == 0]
+
+    return down
 
   
   
