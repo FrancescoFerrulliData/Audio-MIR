@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sms-tools.iml" filepath="$PROJECT_DIR$/.idea/sms-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/my_audio_project_SMS.iml" filepath="$PROJECT_DIR$/.idea/my_audio_project_SMS.iml" />
     </modules>
   </component>
 </project>
