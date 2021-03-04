@@ -1,7 +1,6 @@
+import matplotlib.pyplot as plt
 import numpy as np
 from scipy import signal
-import matplotlib.pyplot as plt
-
 
 plt.figure(1, figsize=(9.5, 6))
 

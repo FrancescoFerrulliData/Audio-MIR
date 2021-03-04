@@ -1,9 +1,10 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.signal import hamming
-import sys, os
-import essentia
+import os
+import sys
+
 import essentia.standard as ess
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.signal import hamming
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 

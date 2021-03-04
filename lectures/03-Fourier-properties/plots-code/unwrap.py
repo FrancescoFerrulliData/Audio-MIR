@@ -1,7 +1,8 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.fftpack import fft, fftshift
 import sys
+
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.fftpack import fft, fftshift
 
 sys.path.append('../../../software/models/')
 import utilFunctions as UF

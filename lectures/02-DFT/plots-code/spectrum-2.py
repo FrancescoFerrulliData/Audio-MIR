@@ -1,7 +1,8 @@
+import math
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
-import sys
-import math
 
 sys.path.append('../../../software/models/')
 import utilFunctions as UF

@@ -1,9 +1,7 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from scipy.interpolate import interp1d
+import numpy as np
 
-
-freqScaling = np.array([0, .8, 1, 1.2]) 
+freqScaling = np.array([0, .8, 1, 1.2])
 plt.figure(1, figsize=(9, 6))
 
 plt.plot(freqScaling[::2], freqScaling[1::2], lw=1.5)

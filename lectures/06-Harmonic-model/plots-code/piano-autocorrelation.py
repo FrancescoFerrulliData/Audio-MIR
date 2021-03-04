@@ -1,8 +1,9 @@
+import os
+import sys
+
+import essentia.standard as ess
 import matplotlib.pyplot as plt
 import numpy as np
-import math
-import time, os, sys
-import essentia.standard as ess
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 

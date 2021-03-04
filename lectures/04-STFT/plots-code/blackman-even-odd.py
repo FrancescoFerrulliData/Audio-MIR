@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.fftpack import fft, fftshift
 from scipy import signal
+from scipy.fftpack import fft, fftshift
 
 M = 32
 N = 128

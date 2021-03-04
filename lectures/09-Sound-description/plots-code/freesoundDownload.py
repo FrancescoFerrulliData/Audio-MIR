@@ -1,6 +1,7 @@
-import os, sys
-import freesound as fs
 import json
+import os
+
+import freesound as fs
 
 # obtain the API key from freesound.org and add it here
 Key = "????????????"

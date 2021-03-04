@@ -1,16 +1,15 @@
-import numpy as np
-import time, os, sys
-from scipy.signal import hamming, resample
+import os
+import sys
+
 import matplotlib.pyplot as plt
+import numpy as np
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/transformations/'))
 
-import dftModel as DFT
 import utilFunctions as UF
 import stftTransformations as STFTT
 import stochasticModel as STOC
-import math
 import stft as STFT
 
 (fs, x1) = UF.wavread('../../../sounds/orchestra.wav')

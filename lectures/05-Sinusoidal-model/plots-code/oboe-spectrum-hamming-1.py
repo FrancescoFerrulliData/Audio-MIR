@@ -1,7 +1,9 @@
+import os
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
-import time, os, sys
-import math
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 import utilFunctions as UF
 import dftModel as DF

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.fftpack import fft
 from scipy import signal
+from scipy.fftpack import fft
 
 M = 64
 N = 512

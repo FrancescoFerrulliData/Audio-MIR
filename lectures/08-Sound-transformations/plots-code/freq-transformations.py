@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 f0 = 1.0
 harms = np.arange(1,6)*f0

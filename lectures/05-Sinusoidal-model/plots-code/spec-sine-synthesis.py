@@ -1,10 +1,12 @@
-import numpy as np
+import os
+import sys
+
 import matplotlib.pyplot as plt
-from scipy.signal import hamming, triang, blackmanharris
-import sys, os, functools, time
+import numpy as np
+from scipy.signal import hamming, blackmanharris
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 import dftModel as DFT
-import utilFunctions as UF
 
 M = 255
 N = 4096

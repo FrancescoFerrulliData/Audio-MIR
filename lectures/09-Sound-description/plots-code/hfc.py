@@ -1,6 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import essentia.standard as ess
+import matplotlib.pyplot as plt
+import numpy as np
 
 M = 1024
 N = 1024

@@ -1,7 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
-import os, sys
+import numpy as np
 
 
 def eucDist(vec1, vec2): 

@@ -1,9 +1,10 @@
-import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-import os, sys
-import json
-from scipy.cluster.vq import vq, kmeans, whiten
+import os
+
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+
 
 def fetchDataDetails(inputDir, descExt = '.json'):
   dataDetails = {}

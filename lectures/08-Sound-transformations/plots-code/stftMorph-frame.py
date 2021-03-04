@@ -1,7 +1,10 @@
-import numpy as np
-import time, os, sys
+import os
+import sys
+
 import matplotlib.pyplot as plt
-from scipy.signal import hamming, resample
+import numpy as np
+from scipy.signal import resample
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 import dftModel as DFT
 import utilFunctions as UF

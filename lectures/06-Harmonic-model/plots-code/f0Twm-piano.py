@@ -1,14 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.signal import hamming, triang, blackman
 import math
-import sys, os, functools, time
+import sys, os, functools
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 
 import dftModel as DFT
 import utilFunctions as UF
 import stft as STFT
-import sineModel as SM
 import harmonicModel as HM
 
 (fs, x) = UF.wavread('../../../sounds/piano.wav')

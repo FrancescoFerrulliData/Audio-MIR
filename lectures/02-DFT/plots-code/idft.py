@@ -1,10 +1,10 @@
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
-import sys
 
 sys.path.append('../../../software/models/')
 import dftModel as DFT
-import math
 
 k0 = 8.5
 N = 64

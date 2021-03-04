@@ -1,6 +1,9 @@
-import numpy as np
-import time, os, sys
+import os
+import sys
+
 import matplotlib.pyplot as plt
+import numpy as np
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/transformations/'))
 import utilFunctions as UF

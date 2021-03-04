@@ -1,9 +1,8 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
-import os, sys
+import numpy as np
 from numpy import random
 from scipy.stats import mode
+
 
 def eucDist(vec1, vec2):
   return np.sqrt(np.sum(np.power(np.array(vec1) - np.array(vec2), 2)))

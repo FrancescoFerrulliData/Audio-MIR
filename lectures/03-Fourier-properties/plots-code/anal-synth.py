@@ -1,13 +1,13 @@
+import os
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
-import time, os, sys
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 
 import dftModel as DFT
 import utilFunctions as UF
-from scipy.io.wavfile import read
-from scipy.fftpack import fft, ifft
 import math
 
 (fs, x) = UF.wavread('../../../sounds/oboe-A4.wav')

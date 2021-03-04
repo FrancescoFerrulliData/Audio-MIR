@@ -1,8 +1,7 @@
-import sys, csv, os
 from essentia import *
 from essentia.standard import *
-from pylab import *
 from numpy import *
+from pylab import *
 
 filename = '../../../sounds/vignesh.wav'
 fs = 44100

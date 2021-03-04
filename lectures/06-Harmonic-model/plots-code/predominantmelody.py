@@ -1,8 +1,8 @@
-import sys, csv, os
 from essentia import *
 from essentia.standard import *
-from pylab import *
 from numpy import *
+from pylab import *
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../software/models/'))
 import stft as STFT
 

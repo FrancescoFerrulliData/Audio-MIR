@@ -1,13 +1,14 @@
+import math
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
-import sys
-from scipy.fftpack import fft, ifft, fftshift
-import math
+from scipy.fftpack import fft, fftshift
 
 sys.path.append('../../../software/models/')
 
 import utilFunctions as UF
-import dftModel as DF
+
 (fs, x) = UF.wavread('../../../sounds/soprano-E4.wav')
 w = np.hamming(511)
 N = 512
